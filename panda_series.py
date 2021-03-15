@@ -1,5 +1,6 @@
 import pandas as pd
 
+"""
 grades = pd.Series([87, 100, 94])
 
 print(grades)
@@ -27,4 +28,21 @@ grades.dtype
 
 grades.values
 #Array([87,100,94])
+"""
 
+hardware = pd.Series(["hammer','saw','wrench"])
+
+""" 0 Hammer
+    1 Saw
+    2 Wrench
+    dtype: object"""
+
+hardware.str.contains("a")
+
+"""0 True
+   1 True
+   2 False
+   dtype: bool"""
+
+hardware_upper = hardware.str.upper()
+print(hardware_upper)å
