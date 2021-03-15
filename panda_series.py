@@ -23,5 +23,8 @@ print(grades)
 grades.Wally
 
 grades.dtype
+#dtype('int64')
 
 grades.values
+#Array([87,100,94])
+
